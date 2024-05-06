@@ -192,6 +192,21 @@ h4 {
 }
 
 .nordestvid{
-    margin: 0px 100px;
-    text-align: center;
+    position: fixed;
+    z-index: -1;
+}
+
+.mainnordeste {
+    margin-top: 300px;
+    padding: 20px;
+    background-color:#5C4D51;
+    outline:#DBD24B solid 3px;
+}
+
+.videostate {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
 }
