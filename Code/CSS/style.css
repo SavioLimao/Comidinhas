@@ -35,6 +35,12 @@ p {
 
 }
 
+.pindex {
+    margin: 325px 10pt 30px 10pt;
+    background-color: #5C4D51;
+    padding-top: 20px;
+}
+
 .ahome {
     text-decoration: none;
     color: #DBD24B;
@@ -110,6 +116,12 @@ p {
     height: 100%;
     display: flex;
     justify-content: center;
+    min-width: 450px;
+    max-height: 250px;
+    flex-wrap: wrap;
+    position: fixed;
+    z-index: -1;
+    margin-bottom: 60px;
 }
 
  .o1 {
@@ -209,4 +221,8 @@ h4 {
     display: flex;
     justify-content: center;
 
+}
+.mainindex {
+    background-color: #5C4D51;
+    
 }
